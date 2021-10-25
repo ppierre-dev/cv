@@ -30,6 +30,7 @@ module.exports = {
       rem05: '0,5rem',
       rem: '1rem',
       rem2: '2rem',
+      vh5: '5vh',
       vh15: '15vh',
       vh25: '25vh',
       vh30: '30vh',

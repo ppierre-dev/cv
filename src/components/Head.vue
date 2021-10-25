@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="grid grid-cols-2 mt-vh30">
                     <div class="m-auto text-center">
-                        <p class="font-black text-white text-4xl uppercase">Bonjour 👋,<br/> Je suis <span class="text-red-400">Prevost Pierre</span>,<br/> etudiant en informatique</p>
+                        <p class="font-black text-white text-4xl uppercase">Bonjour 👋,<br/> Je suis <span class="text-red-400">Prevost Pierre</span>,<br/> etudiant en informatique 💻</p>
                     </div>
                     <div class="m-auto border-2 rounded-full border-white">
                         <img src="../assets/avatar.svg" alt="" width="300">
