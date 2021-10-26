@@ -1,5 +1,5 @@
 <template>
-    <div id="header" class="h-v100 w-v100 bg-gray-600">
+    <div id="header" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
         <div class="flex flex-row">
             <SideBar/>
             <div class="container">

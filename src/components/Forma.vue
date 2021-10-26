@@ -1,5 +1,5 @@
 <template>
-    <div id="forma" class="h-v100 w-v100 bg-gray-600">
+    <div id="forma" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
         <div class="container">
             <div class="m-auto w-p50 mt-vh15">
                 <div>
@@ -31,7 +31,7 @@
         data(){
             return {
                 formaList: [
-                    {year: "2019", label: "Baccaulauréat Scientifique", secondLabel: "Option ISN"},
+                    {year: "2019", label: "Baccaulauréat Scientifique", secondLabel: "Option Informatique et sciences du numérique"},
                     {year: "2022", label: "DUT Informatique", secondLabel: "En 2ème année actuellement"}
                 ]
             }

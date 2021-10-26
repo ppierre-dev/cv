@@ -1,5 +1,5 @@
 <template>
-    <div id="skills" class="h-v100 w-v100 bg-gray-600">
+    <div id="skills" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
         <div class="flex flex-row">
             <div class="container">
                 <div class="m-auto mt-vh5 w-p75 rounded p-rem">

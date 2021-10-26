@@ -8,6 +8,7 @@
                     <a href="#forma" @click="setActivePart('formaLink')"><li id="formaLink" class="mt-rem2 hover:bg-gray-500 rounded p-rem2"><i class="fas fa-graduation-cap text-2xl text-white"></i></li></a>
                     <a href="#workexp" @click="setActivePart('workexpLink')"><li id="workexpLink" class="mt-rem2 hover:bg-gray-500 rounded p-rem2"><i class="fas fa-suitcase text-2xl text-white"></i></li></a>
                     <a href="#skills" @click="setActivePart('skillsLink')"><li id="skillsLink" class="mt-rem2 hover:bg-gray-500 rounded p-rem2"><i class="fas fa-code-branch text-2xl text-white"></i></li></a>
+                    <a href="#projects" @click="setActivePart('projectsLink')"><li id="projectsLink" class="mt-rem2 hover:bg-gray-500 rounded p-rem2"><i class="fas fa-folder-open text-2xl text-white"></i></li></a>
                 </ul>
             </nav>
         </div>

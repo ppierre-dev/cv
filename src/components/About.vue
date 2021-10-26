@@ -1,5 +1,5 @@
 <template>
-    <div id="about" class="h-v100 w-v100 bg-gray-600">
+    <div id="about" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
         <div class="flex flex-row">
             <div class="container">
                 <div class="m-auto mt-vh5 w-p50 rounded p-rem">
@@ -35,8 +35,16 @@
                     <p class="text-center title font-bold text-red-400 p-rem text-2xl">Langues parlées</p>
                     <div class="flex flex-row justify-around">
                         <div class="flex flex-col">
-                            <p class="m-auto text-4xl text-white">🇫🇷</p>
+                            <span class="flag-icon flag-icon-fr text-2xl m-auto"></span>
                             <span class="capitalize text-white">Français (Maternelle)</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="flag-icon flag-icon-gb text-2xl m-auto"></span>
+                            <span class="capitalize text-white">Anglais</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="flag-icon flag-icon-es text-2xl m-auto"></span>
+                            <span class="capitalize text-white">Espagnol</span>
                         </div>
                     </div>
                 </div>

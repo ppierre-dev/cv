@@ -11,6 +11,7 @@ module.exports = {
       p25: '25%',
       p50: '50%',
       v25: '25vh',
+      v35: '35vh',
       v50: '50vh',
       v75: '75vh',
       v100: '100vh',
@@ -27,7 +28,8 @@ module.exports = {
       v100: '100vw',
     },
     margin: {
-      rem05: '0,5rem',
+      5: '5px',
+      rem05: '0.5rem',
       rem: '1rem',
       rem2: '2rem',
       vh5: '5vh',
@@ -42,7 +44,8 @@ module.exports = {
       auto: 'auto',
     },
     padding: {
-      rem05: '0,5rem',
+      5: '5px',
+      rem05: '0.5rem',
       rem: '1rem',
       rem2: '2rem',
       auto: 'auto',
@@ -52,6 +55,9 @@ module.exports = {
     maxWidth: {
       '1/2': '50%',
     },
+    maxHeight: {
+      'vh10': '25vh',
+    }
   },
   variants: {
     extend: {},
