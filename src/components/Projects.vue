@@ -1,11 +1,11 @@
 <template>
-    <div id="projects" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
+    <div id="projects" class="h-v100 w-v100 bg-gray-600">
         <div class="container">
             <div class="flex flex-col">
                 <div class="m-auto">
                     <p class="text-center text-4xl text-red-400 font-black p-rem2 uppercase">Projets Réalisés</p>
                 </div>
-                <div class="flex grid grid-cols-2 m-rem2 text-center">
+                <div class="flex grid grid-cols-2 m-rem2 text-center w-p75 m-auto">
                     <li style="list-style-type: none;" v-for="project, key in projects" :key="key">
                         <div class="bg-cover bg-no-repeat bg-center m-rem h-v25 border-4 border-red-400 rounded" :style="project.background" @mouseover="project.hover = true" @mouseleave="project.hover = false">
                             <div v-if="project.hover" class="w-pfull h-pfull backdrop-filter backdrop-blur-3xl overflow-y-auto p-rem05">

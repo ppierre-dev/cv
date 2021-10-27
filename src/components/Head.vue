@@ -3,7 +3,7 @@
         <div class="flex flex-row">
             <SideBar/>
             <div class="container">
-                <div class="grid grid-cols-2 mt-vh15">
+                <div class="grid grid-cols-2 mt-vh15 ml-p10">
                     <div class="m-auto text-center">
                         <p class="font-black text-white text-4xl uppercase">Bonjour 👋,<br/> Je suis <span class="text-red-400">Prevost Pierre</span>,<br/> etudiant en informatique 💻</p>
                     </div>

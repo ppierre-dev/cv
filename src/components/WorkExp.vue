@@ -1,7 +1,7 @@
 <template>
-    <div id="workexp" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
+    <div id="workexp" class="h-v100 w-v100 bg-gray-600">
         <div class="container">
-            <div class="m-auto w-p50 mt-vh15">
+            <div class="m-auto w-p50 mt-vh5">
                 <div>
                     <p class="text-right text-4xl text-red-400 font-black p-rem2 uppercase">experiences professionnelles</p>
                 </div>

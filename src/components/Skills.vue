@@ -2,8 +2,8 @@
     <div id="skills" class="h-v100 w-v100 bg-gray-600" @mousewheel="this.$emit('mouseWheelMove');">
         <div class="flex flex-row">
             <div class="container">
-                <div class="m-auto mt-vh5 w-p75 rounded p-rem">
-                    <p class="text-right text-4xl text-red-400 font-black p-rem2 uppercase">Mes compétences</p>
+                <div class="m-auto w-p75 rounded p-rem">
+                    <p class="text-right text-4xl text-red-400 font-black pb-rem uppercase">Mes compétences</p>
                     <p class="text-center title font-bold text-red-400 p-rem text-2xl">Web</p>
                     <div class="flex grid grid-cols-2 divide-x">
                         <div class="flex flex-col">

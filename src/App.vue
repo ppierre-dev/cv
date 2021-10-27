@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <Head/>
     <About/>
     <Forma/>

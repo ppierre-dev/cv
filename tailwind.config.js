@@ -18,6 +18,7 @@ module.exports = {
     },
     width: {
       pfull: '100%',
+      p15: '15%',
       p50: '50%',
       p75: '75%',
       v2: '2vw',
