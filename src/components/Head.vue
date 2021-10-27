@@ -22,7 +22,7 @@
                             <i class="fab fa-linkedin"></i><span class="ml-5">Linkedin</span>
                         </div>
                     </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1LexpE7p7cn82aiuDyRp_iqhclFKKyTYL" class="p-10" download="cv.png">
+                    <a href="https://drive.google.com/uc?export=download&id=1-aGj4W-AobKoBf6HsMzHn9MiTCWzS2CA" class="p-10" download="cv_prevost.png">
                         <div class="inline-block mt-rem border rounded border-red-400 bg-red-400 text-white font-bold text-center hover:bg-red-500 w-v10 p-10">
                             <i class="fas fa-download"></i><span class="ml-5">CV</span>
                         </div>
