@@ -33,16 +33,16 @@
                         </div>
                     </div>
                     <p class="text-center title font-bold text-red-400 p-rem text-2xl">Langues parlées</p>
-                    <div class="flex flex-row justify-around">
-                        <div class="flex flex-col">
+                    <div class="flex grid grid-cols-3">
+                        <div class="flex flex-col text-center">
                             <span class="flag-icon flag-icon-fr text-2xl m-auto"></span>
                             <span class="capitalize text-white">Français (Maternelle)</span>
                         </div>
-                        <div class="flex flex-col">
+                        <div class="flex flex-col text-center">
                             <span class="flag-icon flag-icon-gb text-2xl m-auto"></span>
                             <span class="capitalize text-white">Anglais</span>
                         </div>
-                        <div class="flex flex-col">
+                        <div class="flex flex-col text-center">
                             <span class="flag-icon flag-icon-es text-2xl m-auto"></span>
                             <span class="capitalize text-white">Espagnol</span>
                         </div>

@@ -21,6 +21,8 @@ module.exports = {
       p50: '50%',
       p75: '75%',
       v2: '2vw',
+      v10: '10vw',
+      v15: '15vw',
       v25: '25vw',
       v50: '50vw',
       v75: '75vw',
@@ -45,6 +47,7 @@ module.exports = {
     },
     padding: {
       5: '5px',
+      10: '10px',
       rem05: '0.5rem',
       rem: '1rem',
       rem2: '2rem',
