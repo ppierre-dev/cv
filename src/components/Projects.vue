@@ -29,9 +29,9 @@ export default {
         data(){
             return {
                 projects: [
-                    {name: 'Projet Pente', language: 'Java', desc: 'Projet réalisé en groupe de 5 à 8, utilisation de la méthode agile, de github et trello.', background: "background-image: url('src/assets/jeu_pente.png');", link: 'https://github.com/prevostpierre/pente', hover: false},
-                    {name: 'Déformation Image', language: 'Python', desc: 'Projet réalisé en groupe de 3, utilisation de github.', background: "background-image: url('src/assets/deformation_img.png');", link: 'https://github.com/prevostpierre/deformation_image', hover: false},
-                    {name: 'E_CV', language: 'VueJS, Tailwind', desc: 'Première ébauche réalisée pour ma recherche de stage/alternance. Amélioration à venir', background: "background-image: url('src/assets/e_cv.png');", link: '#', hover: false},
+                    {name: 'Projet Pente', language: 'Java', desc: 'Projet réalisé en groupe de 5 à 8, utilisation de la méthode agile, de github et trello.', background: "background-image: url('https://zupimages.net/up/21/43/vjg2.png');", link: 'https://github.com/prevostpierre/pente', hover: false},
+                    {name: 'Déformation Image', language: 'Python', desc: 'Projet réalisé en groupe de 3, utilisation de github.', background: "background-image: url('https://zupimages.net/up/21/43/y1za.png');", link: 'https://github.com/prevostpierre/deformation_image', hover: false},
+                    {name: 'E_CV', language: 'VueJS, Tailwind', desc: 'Première ébauche réalisée pour ma recherche de stage/alternance. Amélioration à venir', background: "background-image: url('https://zupimages.net/up/21/43/8des.png');", link: '#', hover: false},
                 ],
             }
         },
